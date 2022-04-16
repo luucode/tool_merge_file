@@ -1,18 +1,18 @@
-cài 3 thư viện:
+Libraries need to be installed
 
 pip3 install glob2
 pip install pandas
 pip install openpyxl
 
 
-Cách dùng:
+How to use:
 
-trước khi chạy xoá toàn bộ file có trong folder file_csv, file_excel, output_csv, output_excel
+Before running delete all files in folder file_csv, file_excel, output_csv, output_excel
 
-+ Trường hợp chạy cần merge file csv
-B1: Bỏ toàn bộ file csv cần merge vào trong folder file_csv
-B2: Cho chạy file func_merge_csv.py
++ In case of running need merge file csv
+S1: Put all the csv files that need to be merged in folder file_csv
+S2: Let's run file func_merge_csv.py
 
-+ Trường hợp chạy cần merge file excel
-B1: Bỏ toàn bộ file excel cần merge vào trong folder file_excel
-B2: Cho chạy file func_merge_excel.py
++ In case of running need merge file excel
+S1: Put all the excel files that need to be merged in folder folder file_excel
+S2: Let's run file func_merge_excel.py
