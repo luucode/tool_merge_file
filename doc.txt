@@ -1,0 +1,18 @@
+cài 3 thư viện:
+
+pip3 install glob2
+pip install pandas
+pip install openpyxl
+
+
+Cách dùng:
+
+trước khi chạy xoá toàn bộ file có trong folder file_csv, file_excel, output_csv, output_excel
+
++ Trường hợp chạy cần merge file csv
+B1: Bỏ toàn bộ file csv cần merge vào trong folder file_csv
+B2: Cho chạy file func_merge_csv.py
+
++ Trường hợp chạy cần merge file excel
+B1: Bỏ toàn bộ file excel cần merge vào trong folder file_excel
+B2: Cho chạy file func_merge_excel.py
